@@ -281,7 +281,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   #main {
-    margin-left: 100px;
+    margin-left: 1px;
+    padding-left:35px;
+    padding-right:35px;
   }
 }
 /*--------------------------------------------------------------
