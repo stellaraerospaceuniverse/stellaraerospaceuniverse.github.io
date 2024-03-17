@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 50%;
   background: url("../img/sam.jpeg") top center;
   background-size: cover;
 }
@@ -223,12 +223,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 0 0;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: 5px;
   line-height: 56px;
   color: #fff;
-  margin-top:30px;
+  /* margin-top:30px; */
   /* padding-left:350px; */
 }
 #hero h2 {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
   line-height: 56px;
   color: #fff;
-  margin-top:8em;
+  /* margin-top:8em; */
   /* padding-left:350px; */
 }
 .glow {
