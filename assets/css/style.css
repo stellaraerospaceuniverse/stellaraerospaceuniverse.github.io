@@ -465,7 +465,29 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.about .display {
+  display: none;
+}
+.about .product-button{
+  width:10rem;
+  height:3em;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  background-color: #0a447e;
+  color:white;
+}
+@media (max-width: 768px) {
+  .about .display {
+    display: block;
+  }
+  .about .mobile-view{
+    display: none;
+  }
+}
 
 
 /*--------------------------------------------------------------
