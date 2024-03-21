@@ -109,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/main.webp") top center;
   background-size: cover;
+  
 }
 #hero:before {
   content: "";
